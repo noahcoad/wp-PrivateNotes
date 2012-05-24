@@ -1,3 +1,3 @@
 ﻿#!/bin/bash
 
-7z a -tzip PrivateNotes.zip PrivateNotes.php style.css
+7z a -tzip private-notes.zip private-notes.php style.css
