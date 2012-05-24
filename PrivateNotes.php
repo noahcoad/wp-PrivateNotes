@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Private Notes
-Plugin URI: http://noahcoad.com
+Plugin URI: http://noahcoad.github.com/wp-PrivateNotes
 Description: Makes text between note tags private to author only. Example: [note] my private note [/note]
 Version: 1.0
 Author: Noah Coad
