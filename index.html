@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Private Notes : Private Notes Plugin for WordPress" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Private Notes</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/noahcoad/wp-PrivateNotes">View on GitHub</a>
+
+          <h1 id="project_title">Private Notes</h1>
+          <h2 id="project_tagline">Private Notes Plugin for WordPress</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/noahcoad/wp-PrivateNotes/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/noahcoad/wp-PrivateNotes/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Description</h3>
+
+<p>Lets the author add private notes to a post that only the author can see.  Just use a note code, like this [note] my private note [/note] and then it won't be shown publicly but will be rendered in a div tag with class "private-note" so an admin can style the div.</p>
+
+<h3>Installing</h3>
+
+<p>Download the archive from the github link above then form inside there copy the PrivateNotes.zip to your /wp-content/plugins directory or upload PrivateNotes.zip via http://[yoursiteurl.com]/wp-admin/plugin-install.php?tab=upload  Then activate the plugin.</p>
+
+<h3>How to Use</h3>
+
+<p>Once activated in WordPress, simply add the following shortcode in your posts:</p>
+
+<pre><code>[note] This is a personal note that only admins can see! [/note]
+</code></pre>
+
+<p>If you have publishing rights (aka the blog owner/author), then the note will be displayed in a div with a private-note class, so you can use it to give a specific style to your notes.  The text won't show at all for normal visitors.</p>
+
+<pre><code>&lt;div class="private-note"&gt; This is a personal note that only admins can see! &lt;/div&gt;
+</code></pre>
+
+<p>Thanks to @catswhocode for his post which IS this plugin he shared on his post at <a href="http://www.wprecipes.com/add-private-notes-to-your-wordpress-blog-posts">http://www.wprecipes.com/add-private-notes-to-your-wordpress-blog-posts</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Private Notes maintained by <a href="https://github.com/noahcoad">noahcoad</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32066922-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
