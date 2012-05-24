@@ -3,6 +3,8 @@ wp-PrivateNotes
 
 Private Notes Plugin for WordPress
 
+Site URL: http://noahcoad.github.com/wp-PrivateNotes/
+
 Once installed in WordPress, simply add the following shortcode in your posts:
 
     [note] This is a personal note that only admins can see! [/note]
