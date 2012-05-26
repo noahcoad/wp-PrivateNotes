@@ -15,6 +15,7 @@ If you have publishing rights (aka the blog owner/author), then the note will be
 
     <div class="private-note"> This is a personal note that only admins can see! </div>
 
-* Plugin's Page: [on github](http://noahcoad.github.com/wp-PrivateNotes/)q'
+* WordPress Plugin Directory Listing: [on wordpress.com](http://wordpress.org/extend/plugins/private-notes/)
+* Plugin's Page: [on github](http://noahcoad.github.com/wp-PrivateNotes/)
 * Author's Blog: [noahcoad.com](http://noahcoad.com)
 * Thanks to [@catswhocode](https://twitter.com/#!/catswhocode "on twitter") for [his post](http://www.wprecipes.com/add-private-notes-to-your-wordpress-blog-posts "Add private notes to your WordPress blog posts") which this plugin was created from.
