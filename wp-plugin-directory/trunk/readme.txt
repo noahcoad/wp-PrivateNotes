@@ -4,7 +4,7 @@ Donate link: https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZB
 Tags: private, notes, comments, thoughts, author
 Requires at least: 2.0.2
 Tested up to: 3.3.2
-Stable tag: trunk
+Stable tag: tags/1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,12 +38,18 @@ Your notes will not be lost, but they will be publicly visible and seen the same
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* Slight default styling update and h4 header added
+
+= 1.0.0 =
 * First and only release
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.1.0 =
+Slight default styling update and h4 header added
+
+= 1.0.0 =
 First and only release
 
 == Other Info ==
