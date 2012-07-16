@@ -1,5 +1,5 @@
-.note {
-  background-color: #FEFFED;
+.private-note {
+  background-color: #FAF2AF;
 
   margin: 8px;
 
@@ -8,5 +8,11 @@
   padding-right: 16px;
 
   border-radius: 6px;
-  border: 1px solid black;
+  box-shadow: 3px 3px 4px #AAA;
+}
+
+.private-note h4 {
+  font: bold 10pt arial;
+  text-transform: uppercase;
+  margin: 0;
 }
